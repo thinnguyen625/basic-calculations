@@ -8,4 +8,4 @@
    - Bấm nút tính mà chưa chọn phép tính
    - Chưa điền điền đủ hai số hợp lệ đẻ thực hiện phép tính
 
-**Demo: **https://basic-calculations.netlify.com/
+**Demo:** https://basic-calculations.netlify.com/
