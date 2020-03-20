@@ -7,3 +7,5 @@
    - Di chuyển khỏi ô nhập số thứ nhất hoặc số thứ hai mà dữ liệu không phải là số thực
    - Bấm nút tính mà chưa chọn phép tính
    - Chưa điền điền đủ hai số hợp lệ đẻ thực hiện phép tính
+
+**Demo: **https://basic-calculations.netlify.com/
