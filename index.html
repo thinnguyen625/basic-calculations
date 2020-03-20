@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BÉ TẬP TÍNH</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>BÉ TẬP TÍNH</h1>
+        <form>
+            <div class="form-group">
+                <label for="inputNumber1">Nhập số thứ 1</label>
+                <input type="text" onchange="notify1()"  class="form-control" id="number1">
+            </div>
+            <div class="form-group">
+                <label for="inputNumber2">Nhập số thứ 2</label>
+                <input type="text" onchange="notify2()" class="form-control" id="number2">
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input id="addButton" type="radio" name="phepTinh" value="Cong">
+                    <label for="cong">Cộng</label>&emsp;
+                    <input id="minusButton" type="radio" name="phepTinh" value="Tru">
+                    <label for="tru">Trừ</label>&emsp;
+                    <input id="mulButton" type="radio" name="phepTinh" value="Nhan">
+                    <label for="nhan">Nhân</label>&emsp;
+                    <input id="divButton" type="radio" name="phepTinh" value="Chia">
+                    <label for="chia">Chia</label>&emsp;
+
+                    <button id="plusButton" type="button" class="btn btn-primary tinh">Tính</button>
+                </div>
+                <div class="col">
+                    <label for="info">Thông báo: </label>
+                    <input disabled id="info"  class="notify">
+                </div>
+            </div>
+            <div>
+
+                <div class="form-group">
+                    <label for="result">Kết quả</label>
+                    <input disabled type="number" class="form-control" id="result">
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

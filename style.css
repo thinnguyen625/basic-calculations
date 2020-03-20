@@ -1,0 +1,32 @@
+.container{
+   margin-top: 12%;
+}
+
+h1{
+    color: blue;
+}
+
+h2{
+    color: blue;
+}
+.col{
+    margin-top:1%;
+}
+.tinh{
+    float: right;
+    margin-right: 7%;
+}
+
+.notify{
+    width: 400px;
+}
+.col input{
+    color: red;
+    font-weight: bold;
+    margin-left: 5%;
+    /* margin-top: 10px; */
+}
+.col label{
+    font-weight: bold;
+    
+}
